@@ -10,7 +10,7 @@ if n==1:
   t = math.atan(y/x)
   t = 180 * t/math.pi
   print('Polar coordinate is: (radius = %0.2f,theta = %0.2f)' %(r, t))
-else n==2:
+elif n==2:
   r = float(input('Enter value of r: '))
   t = float(input('Enter value of theta: '))
   t = math.pi*t/180
@@ -18,4 +18,4 @@ else n==2:
   y = r*math.sin(t)
   print('cartesian coordinate is: (x = %0.2f,y = %0.2f)' %(x, y))
 else:
-    print('invalid choice')
+  print('invalid choice')
